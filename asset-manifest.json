@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simple-wish/static/css/main.4c3e9653.css",
+    "main.js": "/simple-wish/static/js/main.993846a6.js",
+    "static/js/787.aab232bd.chunk.js": "/simple-wish/static/js/787.aab232bd.chunk.js",
+    "index.html": "/simple-wish/index.html",
+    "main.4c3e9653.css.map": "/simple-wish/static/css/main.4c3e9653.css.map",
+    "main.993846a6.js.map": "/simple-wish/static/js/main.993846a6.js.map",
+    "787.aab232bd.chunk.js.map": "/simple-wish/static/js/787.aab232bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c3e9653.css",
+    "static/js/main.993846a6.js"
+  ]
+}
