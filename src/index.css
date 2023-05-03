@@ -11,3 +11,114 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dataContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dataContainer .header {
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+  margin-top: 10vh;
+}
+
+.dataContainer .bio {
+  font-size: 18px;
+  color: #333;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+
+.containt{
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.wishButton{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.wish-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1px;
+  align-self: center;
+  background-color:antiquewhite;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 0 6px #5555556d;
+}
+
+.wish-container h1{
+  font-size: 20px;
+  display: block;
+  color: #333;
+}
+
+.wish-container input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  color: #333;
+}
+
+
+.wish-container button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.wish-container button:hover {
+  background-color: antiquewhite;
+  color: #4CAF50;
+}
+
+
+.wish-box{
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  gap: 2vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px;
+  align-self: center;
+  border-radius: 20px;
+  box-shadow: 0 0 6px #5555556d;
+}
+
+
+
+.wish-data{
+color: #222;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+
+.wish-data strong {
+  color: #444;
+}
